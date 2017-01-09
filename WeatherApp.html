@@ -1,0 +1,43 @@
+<DOCTYPE! html>
+  <html>
+    <head>
+      <title>TEMPLATE</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" async></script>
+        <script src="WeatherApp.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="WeatherApp.css" rel="stylesheet" type="text/css">
+        <link href="https://cdn.rawgit.com/erikflowers/weather-icons/master/css/weather-icons.min.css" rel="stylesheet" type="text/css">
+
+
+    </head>
+    <body  class="jumbotron">
+      <div class="container-fluid">
+        <div class="row">
+              <div class="col-xs-12">
+          <h2>Free C<i class="wi wi-day-lightning"></i>de Camp</h2>
+        </div>
+          <div><h3>Weather App</h3> </div>
+
+
+            <div class="row center">
+        <div id="location" class="col-xs-12">
+          <h3 id="location"></h3>
+        </div>
+        <div class="col-xs-12">
+          <h4 id="temperature" fahrenheit="" celsius="">
+            <span id ="tempValue"></span>
+            <span id="fahrenheitSymbol" class="unit active"><i class="wi wi-fahrenheit"></i></span> / <span id="celsiusSymbol" class="unit inactive"><i class="wi wi-celsius"></i></span>
+        </div>
+        <div class="col-xs-12">
+          <h3 id="conditions"></h3>
+        </div>
+        <div class="col-xs-12">
+          <h3 id="condition-img"></h3>
+        </div>
+      </div>
+
+        </div>
+      </div>
+    </body>
+  </html>
