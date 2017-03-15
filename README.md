@@ -1,2 +1,2 @@
 # WeatherApp
-This file works via a secure connection. 
+This file works via a secure 'https' connection. 
